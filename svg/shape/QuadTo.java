@@ -1,6 +1,6 @@
 package shape;
 
-public class QuadTo extends svg.pathop.PathOp {
+public class QuadTo extends PathOp {
 
     private double x1;
     private double y1;

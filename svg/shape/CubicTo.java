@@ -1,6 +1,6 @@
 package shape;
 
-public class CubicTo extends svg.pathop.PathOp {
+public class CubicTo extends PathOp {
 
     private double x1;
     private double y1;
