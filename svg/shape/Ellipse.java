@@ -1,6 +1,9 @@
-package svg.shape;
+package shape;
+
+
 import svg.SVGParser;
 import svg.element.Element;
+import svg.shape.Shape;
 
 
 public class Ellipse extends Shape {
@@ -15,7 +18,7 @@ public class Ellipse extends Shape {
     }
 
     public Element newInstance() {
-        return new Ellipse();
+        return (Element) new Ellipse();
     }
 
     public boolean load(final String expr) {
