@@ -1,4 +1,4 @@
-package svg.shape;
+package shape;
 
 import svg.element.BaseElement;
 
