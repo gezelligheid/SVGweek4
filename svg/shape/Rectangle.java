@@ -19,7 +19,7 @@ public class Rectangle extends Shape {
     }
 
     public Element newInstance() {
-        return new Rectangle();
+        return (Element) new Rectangle();
     }
 
     public boolean load(final String expr) {

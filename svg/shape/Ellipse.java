@@ -1,6 +1,9 @@
-package svg.shape;
+package shape;
+
+
 import svg.SVGParser;
 import svg.element.Element;
+import svg.shape.Shape;
 
 
 public class Ellipse extends Shape {
