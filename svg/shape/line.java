@@ -51,5 +51,9 @@ public class line extends Shape {
     public String toString () {
         return "line: x1=" + x1 + ", y1="+y1+ ", x2="+x2+", y2="+ y2;
     }
+
+    public static void main(String []args) {
+        Shape.updateRegistry(new line());
+    }
 }
 

@@ -55,6 +55,10 @@ public class Circle extends Shape {
         return "circle: cx=" +cx + ", cy=" + cy + ", r=" +r;
     }
 
+    public static void main(String []args) {
+        Shape.updateRegistry(new Circle());
+    }
+
 
 
 

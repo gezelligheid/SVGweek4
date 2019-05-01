@@ -1,4 +1,6 @@
 package svg.element;
+import java.util.*;
+import svg.element.Element;
 
 //-----------------------------------------------------------------------------
 
@@ -8,6 +10,7 @@ package svg.element;
  */
 public abstract class BaseElement implements Element
 {
+	private static ArrayList<Element> elementRegistry = new ArrayList<Element>();
 	private final String label;
 
 	// Character position in SVG file
@@ -44,6 +47,11 @@ public abstract class BaseElement implements Element
 	public void setFilePos(final int pos)
 	{
 		filePos = pos;
+	}
+
+	public static void updateRegistry(Element e) {
+		elementRegistry.add(e);
+
 	}
 
 	//-------------------------------------------------------------------------

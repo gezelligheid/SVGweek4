@@ -65,7 +65,9 @@ public class Ellipse extends Shape {
         return "ellipse: cx=" +cx + ", cy=" + cy + ", rx=" +rx + ", ry=" + ry;
     }
 
-
+    public static void main(String []args) {
+        Shape.updateRegistry(new Ellipse());
+    }
 
 
 }
