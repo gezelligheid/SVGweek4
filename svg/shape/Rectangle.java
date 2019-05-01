@@ -3,7 +3,6 @@ package shape;
 
 import svg.SVGParser;
 import svg.element.Element;
-import svg.shape.Shape;
 
 public class Rectangle extends Shape {
 
@@ -74,6 +73,9 @@ public class Rectangle extends Shape {
         }
 
         return false;
+    }
 
+    public String toString() {
+        return "rect: x=" +x + ", y=" + y + ", rx=" +rx + ", ry= " +ry + ", width=" + width + ", height=" + height;
     }
 }
