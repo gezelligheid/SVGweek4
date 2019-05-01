@@ -1,6 +1,9 @@
-package svg.shape;
+package shape;
+
+
 import svg.SVGParser;
 import svg.element.Element;
+import svg.shape.Shape;
 
 
 public class Circle extends Shape {
@@ -14,7 +17,7 @@ public class Circle extends Shape {
     }
 
     public Element newInstance() {
-        return new Circle();
+        return (Element) new Circle();
     }
 
     public boolean load(final String expr) {
