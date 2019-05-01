@@ -45,6 +45,11 @@ public class line extends Shape {
         } else return false;
 
         return true;
+
+    }
+
+    public String toString () {
+        return "line: x1=" + x1 + ", y1="+y1+ ", x2="+x2+", y2="+ y2;
     }
 }
 
