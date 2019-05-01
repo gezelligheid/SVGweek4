@@ -1,16 +1,12 @@
 package svg.pathop;
 
-import svg.path;
 
 
-public abstract class  PathOp extends Path {
+public abstract class  PathOp  {
 
 protected char label;
 protected boolean absolute;
 
-public PathOp(final String label){
-super(label);
-}
 
 
 }

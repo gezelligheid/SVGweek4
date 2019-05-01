@@ -1,6 +1,6 @@
 package shape;
 
-public class CubicTo extends PathOp {
+public class CubicTo extends svg.pathop.PathOp {
     double x1;
     double y1;
     double x2;
@@ -8,9 +8,7 @@ public class CubicTo extends PathOp {
     double x3;
     double y3;
 
-    public CubicTo (final String label) {
-        Super(label);
-    }
+
 
 
 }
