@@ -3,7 +3,6 @@ package shape;
 
 import svg.SVGParser;
 import svg.element.Element;
-import svg.shape.Shape;
 
 
 public class Ellipse extends Shape {
@@ -60,6 +59,10 @@ public class Ellipse extends Shape {
 
         return true;
 
+    }
+
+    public String toString() {
+        return "ellipse: cx=" +cx + ", cy=" + cy + ", rx=" +rx + ", ry=" + ry;
     }
 
 

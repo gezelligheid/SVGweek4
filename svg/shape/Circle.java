@@ -3,7 +3,6 @@ package shape;
 
 import svg.SVGParser;
 import svg.element.Element;
-import svg.shape.Shape;
 
 
 public class Circle extends Shape {
@@ -50,6 +49,10 @@ public class Circle extends Shape {
 
         return true;
 
+    }
+
+    public String toString() {
+        return "circle: cx=" +cx + ", cy=" + cy + ", r=" +r;
     }
 
 
