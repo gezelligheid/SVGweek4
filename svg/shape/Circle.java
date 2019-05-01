@@ -14,7 +14,7 @@ public class Circle extends Shape {
     }
 
     public Element newInstance() {
-        return new Circle();
+        return (Element) new Circle();
     }
 
     public boolean load(final String expr) {

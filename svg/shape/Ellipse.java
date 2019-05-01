@@ -15,7 +15,7 @@ public class Ellipse extends Shape {
     }
 
     public Element newInstance() {
-        return new Ellipse();
+        return (Element) new Ellipse();
     }
 
     public boolean load(final String expr) {
