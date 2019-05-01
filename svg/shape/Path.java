@@ -1,4 +1,4 @@
-package svg.path;
+package shape;
 
 public abstract class Path extends Shape{
 
