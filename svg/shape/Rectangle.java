@@ -14,7 +14,7 @@ public class Rectangle extends Shape {
     private double height;
 
     public Rectangle() {
-        super("rectangle");
+        super("rect");
     }
 
     public Element newInstance() {
@@ -77,5 +77,9 @@ public class Rectangle extends Shape {
 
     public String toString() {
         return "rect: x=" +x + ", y=" + y + ", rx=" +rx + ", ry= " +ry + ", width=" + width + ", height=" + height;
+    }
+
+    public static void main(String []args) {
+        Shape.updateRegistry(new Rectangle());
     }
 }

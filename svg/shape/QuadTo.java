@@ -6,4 +6,9 @@ public class QuadTo extends PathOp {
     private double y1;
     private double x2;
     private double y2;
+
+    public QuadTo() {
+        super('Q');
+    }
+
 }

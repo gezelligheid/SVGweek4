@@ -8,6 +8,7 @@ import java.util.Comparator;
 
 import svg.element.Element;
 import svg.element.BaseElement;
+import svg.SVG;
 
 //-----------------------------------------------------------------------------
 
