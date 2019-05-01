@@ -9,5 +9,4 @@ public class CubicTo extends svg.pathop.PathOp {
     private double x3;
     private double y3;
 
-
 }
